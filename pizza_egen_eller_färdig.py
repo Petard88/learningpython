@@ -1,0 +1,3 @@
+färdiga_pizzor = {
+    'margherita': []
+}

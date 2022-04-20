@@ -1,0 +1,7 @@
+in python you can use len to count stuff
+in python you can make lists
+in python you can do stuff
+in python you can make stuff
+in python you can check stuff
+in python you can change stuff
+in python you can delete stuff

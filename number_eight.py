@@ -1,0 +1,5 @@
+print(2.0 * 4)
+print(3 + 3 + 2)
+print(16 / 2)
+print(64 / 8)
+print(2 ** 3)
