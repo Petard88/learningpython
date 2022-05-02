@@ -24,7 +24,7 @@ def txt_word_counter(filenames):
                 percentage = quotient * 100
                 print(
                     f"The word '{the_word.title()}' occurs {word_counter} times in "
-                    f"'{filename}' out of {count_words(filename)} words. That is about {round(percentage)}%."
+                    f"'{filename}' out of {count_words(filename)} words. That is about {round(percentage, 3)}%."
                 )
 
 
