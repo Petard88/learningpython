@@ -13,7 +13,8 @@ def count_words(filename):
 
 
 def txt_word_counter(filenames):
-    """Counts how many times a specific word occurs out of all the words from a list of txt files"""
+    """Counts how many times a specific word occurs out of all the words from a list of txt files
+    and also gives the percentage."""
     the_word = input("What word are you looking for? ")
     try:
         for filename in filenames:
