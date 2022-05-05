@@ -1,12 +1,9 @@
 class Employee:
 
-    def __init__(self, first, last, annual_salary):
+    def __init__(self, first, last, salary):
         self.first = first
         self.last = last
-        self.annual_salary = annual_salary
+        self.salary = salary
 
-    def give_raise(self, salary_increase):
-        if salary_increase:
-            self.annual_salary += salary_increase
-        else:
-            self.annual_salary += 5000
+    def give_raise(self, salary_increase=5000):
+        self.salary += salary_increase
