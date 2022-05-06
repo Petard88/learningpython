@@ -1,6 +1,5 @@
 import webbrowser
 from pynput import keyboard
-import ctypes
 
 def on_press(key):
     if key == keyboard.Key.shift:
