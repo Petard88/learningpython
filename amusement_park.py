@@ -1,4 +1,4 @@
-age = 122
+age = int(input("What is your age? "))
 
 if age < 4:
     print("Your admission cost is $0") #svårare att ändra på 3 olika

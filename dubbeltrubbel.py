@@ -4,7 +4,7 @@ keyboard = Controller()
 
 def on_press(key):
     if key == keyboard.Key.shift:
-        keyboard.t
+        keyboard.
     else:
         print(key)
 if __name__ == "__main__":
